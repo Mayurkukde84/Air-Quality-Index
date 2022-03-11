@@ -1,0 +1,65 @@
+:root {
+    --black: 
+  rgba(0, 0, 0, 1);
+    --white: 
+  rgba(255, 255, 255, 1);
+  
+    --font-size-s: 48px;
+    --font-size-m: 18px;
+    --font-size-l: 24px;
+    --font-size-xl: 36px;
+    --font-size-xxxl: 64px;
+    --font-size-m2: 96px;
+  
+    --font-family-ibm_plex_sans_condensed: "IBM Plex Sans Condensed";
+    --font-family-ibm_plex_sans_condensed-regular: "IBM Plex Sans Condensed-Regular";
+    --font-family-merriweather: "Merriweather";
+    --font-family-playfair_display: "Playfair Display";
+    --font-family-playfair_display-extrabold: "Playfair Display-ExtraBold";
+    --font-family-roboto: "Roboto";
+  }
+  
+  
+  
+  .roboto-normal-white-18px {
+    color: var(--white);
+    font-family: var(--font-family-roboto);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    font-style: normal;
+  }
+  .ibmplexsanscondensed-normal-white-48px {
+    color: var(--white);
+    font-family: var(--font-family-ibm_plex_sans_condensed);
+    font-size: var(--font-size-s);
+    font-weight: 400;
+    font-style: normal;
+  }
+  .merriweather-normal-white-64px {
+    color: var(--white);
+    font-family: var(--font-family-merriweather);
+    font-size: var(--font-size-xxxl);
+    font-weight: 400;
+    font-style: normal;
+  }
+  .roboto-normal-black-24px {
+    color: var(--black);
+    font-family: var(--font-family-roboto);
+    font-size: var(--font-size-l);
+    font-weight: 400;
+    font-style: normal;
+  }
+  .ibmplexsanscondensed-regular-normal-white-48px {
+    color: var(--white);
+    font-family: var(--font-family-ibm_plex_sans_condensed-regular);
+    font-size: var(--font-size-s);
+    font-weight: 400;
+    font-style: normal;
+  }
+  .merriweather-normal-white-18px {
+    color: var(--white);
+    font-family: var(--font-family-merriweather);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    font-style: normal;
+  }
